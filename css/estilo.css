@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body {
+    .formulario {
+        width: 300px;
+        height: 600px;
+        left: 50px;
+        border-radius: 20px;
+        border: 2px solid #757575;
+        margin: 25px;
+        float: left;
+        padding: 15px;
+    }
+
+    .formulario h2 {
+        color: #388E3C;
+        font-size: 23px;
+        text-align: center;
+        font-family: Releway;
+    }
+
+    .formulario form input {
+        width: 90%;
+        border: 1px solid #757575;
+        border-radius: 9px;
+        padding: 7px;
+        margin: 3px 0;
+    }
+
+
+    .form-plan {
+        width: 288px;
+        left: 1px;
+        border-radius: 10px;
+        border: 1px solid #757575;
+        font-family: Releway;
+        margin:  0px;
+        padding: 10px; 
+       font-family: Releway;
+
+    }
+
+
+
+    .formulario label {
+        font-size: 16px;
+        width: 70%;
+        padding: 5px;
+        margin: 3px 0;
+        font-family: Releway;
+        left: 107px;
+    }
+
+    .formulario form button {
+        font-size: 20px;
+        background-color: #388E3C;
+        color: #fff;
+        border: 2px solid #388E3C;
+        padding: 2px 80px;
+        border-radius: 30px;
+        font-family: Releway;
+        border-radius: 9px;
+        margin:  12px;
+        text-align: center;
+    }
+
+
+}

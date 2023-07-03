@@ -4,25 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Formulario</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <header>
-        <div>
-            <div class="logo">
-            <img src="imagens/conexos-logo-black.png" alt="Logo conexos black">
-        </div>
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="produtos.html">Planos</a></li>
-                    <li><a href="rastreamento-de-solicitaçoes.html">Status de solicitações</a></li>
-            
-                </ul>
-            </nav>
-        </div>    
-    </header>
+<header>
+<main>
+    <section class="contato">
+        <div class="container">
+            <div class="formulario">
+                <h2>Contratação de planos</h2>
+    
+    <form class="contratacao-plano" method="POST">
+
+        <label><strong> Nome completo</strong></label>
+        <input type="text"  name="nome Completo" />
+        <br>
+      
+        <label><strong>CPF</strong></label>
+        <input type="text" name="CPF" />
+        <br>
+
+        <label><strong> Email</strong></label>
+        <input type="text" name="email" />
+        <br>
+
+        <label for="time"> <strong> Plano </strong></label> <br>
+        <select class="form-plan">
+        <option> Plano 1</option>
+         <option> Plano 2 </option>
+         <option> Plano 3</option>
+        </select>
+        <br>
+
+        <label for="time"><strong>Preferencia de horário para visitas</strong></label>
+        <select class="form-plan">
+        <option>8:00 as 12:00</option>
+         <option>12:00 as 17:00</option>
+        </select>
+        <br>
+
+
+        <button type="submit" >Contratar</button>
+        <br>
+         
+        
+</main>
+</header>
 </body>
 </html>
