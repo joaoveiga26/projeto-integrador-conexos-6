@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,49 +8,178 @@
     <title>Formulario</title>
     <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
-<header>
-<main>
-    <section class="contato">
-        <div class="container">
-            <div class="formulario">
-                <h2>Contratação de planos</h2>
-    
-    <form class="contratacao-plano" method="POST">
 
-        <label><strong> Nome completo</strong></label>
-        <input type="text"  name="nome Completo" />
-        <br>
-      
-        <label><strong>CPF</strong></label>
-        <input type="text" name="CPF" />
-        <br>
+    <header>
+        <div>
+            <div class="logo">
+                <img src="imagens/conexos-logo-black.png" alt="Logo conexos black">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="produtos.html">Planos</a></li>
+                        <li><a href="rastreamento-de-solicitaçoes.html">Status de solicitações</a></li>
+                    </ul>
 
-        <label><strong> Email</strong></label>
-        <input type="text" name="email" />
-        <br>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--Planos/ Bruna-->
 
-        <label for="time"> <strong> Plano </strong></label> <br>
-        <select class="form-plan">
-        <option> Plano 1</option>
-         <option> Plano 2 </option>
-         <option> Plano 3</option>
-        </select>
-        <br>
+        <section class="planos-principais">
+            <div class="container">
+                <div class="titulo">
+                    <h2>CONHEÇA NOSSOS PLANOS!!</h2><br>
+                </div>
+                <!--Plano 1-->
+                <div class="plano1">
+                    <article>
+                        <div class="primeira"><br>
+                            <br>
+                            <h3>PLANO BÁSICO</h3><br>
+                            <img src="imagens/ilustra_1.png" alt="imagem ilustrativa" width="117px" height="106px">
+                            <ul>Plano ideal para espaços<br>residenciais com pequenas famílias.<br>
+                                <br>
+                                <li><strong>vantagem x+</strong></li>
+                                <li><strong>vantagem y+</strong></li>
+                                <li>v<strong>vantagem z+</strong></li>
+                                <h4>R$500,00</h4>
+                            </ul>
+                            <button style="background: #388E3C;width: 168px; height: 30px;top: 1245px;
+                                left: 577px; border-radius: 20px;"> <a href="plano.html">ESCOLHER PLANO</a></button>
+                    </article>
+                    <!--Plano 2-->
+                    <article>
+                        <div class="segunda"><br>
+                            <br>
+                            <h3>PLANO INTERMEDIÁRIO</h3><br>
+                            <img src="imagens/ilustra_2.png" alt="imagem ilustrativa" width="146px"
+                                height="116.66666412353516px">
+                            <ul>Plano ideal para espaços residenciais com grandes famílias ou startups.<br>
+                                <br>
+                                <li><strong>vantagem x++</strong></li>
+                                <li><strong>vantagem y++</strong></li>
+                                <li><strong>vantagem z++</strong></li>
+                                <h4>R$700,00</h4>
+                            </ul>
+                            <button style="background: #388E3C;width: 168px; height: 30px;top: 1245px;
+                                left: 577px; border-radius: 20px;"><a href="plano.html">ESCOLHER PLANO</a></button>
+                    </article>
+                    <!--Plano 3-->
+                    <article>
+                        <div class="terceira"><br>
+                            <br>
+                            <h3>PLANO PREMIUM</h3><br>
+                            <img src="imagens/ilustra_3.png" alt="imagem ilustrativa" width="119px" height="105px">
+                            <ul>Plano ideal para espaços empresariais.<br>
+                                <br>
+                                <li><strong>vantagem x</strong></li>
+                                <li><strong>vantagem y</strong></li>
+                                <li><strong>vantagem z</strong></li>
+                                <h4>R$1200,00</h4>
+                            </ul>
+                            <button style="background: #388E3C;width: 168px; height: 30px;top: 1245px;
+                        left: 577px; border-radius: 20px;"><a href="plano.html">ESCOLHER PLANO</a></button>
+                            <style>
+                                a {
+                                    text-decoration: none;
+                                    font-family: Raleway;
+                                    font-size: 14px;
+                                    font-weight: 700;
+                                    line-height: 16px;
+                                    letter-spacing: 0em;
+                                    text-align: left;
+                                    color: #fff;
+                                }
 
-        <label for="time"><strong>Preferencia de horário para visitas</strong></label>
-        <select class="form-plan">
-        <option>8:00 as 12:00</option>
-         <option>12:00 as 17:00</option>
-        </select>
-        <br>
+                                h4 {
+                                    font-family: Roboto Mono;
+                                    font-size: 25px;
+                                    font-weight: 600;
+                                    letter-spacing: 0em;
+                                    text-align: left;
+                                    line-height: 40px;
+                                }
+
+                                ul {
+                                    height: 200px;
+                                    top: 980px;
+                                    left: 228px;
+                                }
+
+                                /*Borda de cada plano*/
+                                div.primeira {
+                                    border: 90px solid rgb(1, 1, 11);
+                                    border-width: 3px;
+                                    width: 250px;
+                                    height: 500px;
+                                }
+
+                                div.segunda {
+                                    border: 90px solid rgb(1, 1, 11);
+                                    border-width: 3px;
+                                    width: 250px;
+                                    height: 500px;
+                                }
+
+                                div.terceira {
+                                    border: 90px solid rgb(1, 1, 11);
+                                    border-width: 3px;
+                                    width: 250px;
+                                    height: 500px;
+                                }
+                            </style>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="contato">
+            <div class="container">
+                <div class="formulario">
+                    <h2>Contratação de planos</h2>
+
+                    <form class="contratacao-plano" method="POST">
+
+                        <label><strong> Nome completo</strong></label>
+                        <input type="text" name="nome Completo" />
+                        <br>
+
+                        <label><strong>CPF</strong></label>
+                        <input type="text" name="CPF" />
+                        <br>
+
+                        <label><strong> Email</strong></label>
+                        <input type="text" name="email" />
+                        <br>
+
+                        <label for="time"> <strong> Plano </strong></label> <br>
+                        <select class="form-plan">
+                            <option> Plano 1</option>
+                            <option> Plano 2 </option>
+                            <option> Plano 3</option>
+                        </select>
+                        <br>
+
+                        <label for="time"><strong>Preferencia de horário para visitas</strong></label>
+                        <select class="form-plan">
+                            <option>8:00 as 12:00</option>
+                            <option>12:00 as 17:00</option>
+                        </select>
+                        <br>
 
 
-        <button type="submit" >Contratar</button>
-        <br>
-         
-        
-</main>
-</header>
+                        <button type="submit">Contratar</button>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
