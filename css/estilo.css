@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: linear-gradient(180deg, #C8E6C9 0%, rgba(200, 230, 201, 0) 63.54%, rgba(200, 230, 201, 0) 87.5%, rgba(200, 230, 201, 0) 100%);;
+    height: 2000x;
+}
+
+header .logo {
+    background-color: #388E3c;
+    text-align: left;
+}
+
+header .menu {
+    Text-align: center;
+    display: flex;
+    justify-content: end; 
+}
+
+header .menu ul {
+    margin: -65px 55px;
+    list-style: none;
+}
+
+header .menu ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main section.banner {
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main section.banner .container {
+    display: flex;
+    justify-content: flex-end;
+    /* alinhamento horizontal pra direita */
+    margin: 0 auto;
+    background-image: url(../imagens/ilustra_banner.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+main section.banner h1 {
+    font-family: Raleway;
+    color:#388E3c; 
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 320px 50px;
+    align-self: center;
+    
+}
+
+main section.banner p {
+    font-family: Raleway;
+    color:black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 300px;
+    align-self: center;
+}
