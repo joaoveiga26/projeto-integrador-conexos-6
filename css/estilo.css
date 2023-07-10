@@ -10,39 +10,45 @@ body {
     font-family: Raleway;
     font-size: 40px;
     font-weight: 700;
-    line-height: 47px;
-    letter-spacing: 0em;
     text-align: left;
-    background: linear-gradient(180deg, #C8E6C9 0%, rgba(200, 230, 201, 0) 63.54%, rgba(200, 230, 201, 0) 87.5%, rgba(200, 230, 201, 0) 100%);;
-    height: 2000x;
+    background: linear-gradient(180deg, #C8E6C9 0%, rgba(200, 230, 201, 0) 63.54%, rgba(200, 230, 201, 0) 87.5%, rgba(200, 230, 201, 0) 100%);
+}
+
+header .container-header {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #388E3c;
 }
 
 header .logo {
-    background-color: #388E3c;
     text-align: left;
 }
 
 header .menu {
-    Text-align: center;
-    display: flex;
-    justify-content: end; 
+    text-align: center;
 }
 
 header .menu ul {
-    margin: -65px 55px;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 header .menu ul li {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 5px 15px;
     font-family: Raleway;
     font-size: 12px;
     font-weight: 700;
-    line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 header .menu ul li a {
@@ -50,34 +56,82 @@ header .menu ul li a {
     color: #fff;
 }
 
+a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+h4 {
+    font-family: Roboto Mono;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 40px;
+}
+
+/* ul {
+    height: 200px;
+    top: 980px;
+    left: 228px;
+} */
+
+/*Borda de cada plano*/
+div.primeira {
+    border: 90px solid rgb(1, 1, 11);
+    border-width: 3px;
+    width: 250px;
+    height: 500px;
+}
+
+div.segunda {
+    border: 90px solid rgb(1, 1, 11);
+    border-width: 3px;
+    width: 250px;
+    height: 500px;
+}
+
+div.terceira {
+    border: 90px solid rgb(1, 1, 11);
+    border-width: 3px;
+    width: 250px;
+    height: 500px;
+}
+
 main section.banner {
     height: 500px;
     background-image: url(../imagens/ilustra_banner.png);
     margin: 0 auto;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
 }
 
-main section.banner .container{
+main section.banner .container {
     display: flex;
     align-items: center;
-    height: 500px;
+    min-height: 500px;
     justify-content: flex-end;
 }
 
 main section.banner h1 {
     font-family: Raleway;
-    color:#388E3c; 
+    color: #388E3c;
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
     letter-spacing: 0em;
     text-align: left;
     padding: 0px 50px;
-    
+
 }
 
-      /* 
+/* 
 main section.banner p {
     font-family: Raleway;
     color:black;
@@ -97,7 +151,6 @@ footer {
     color: #fff;
     font-weight: 700;
     font-size: 18px;
-    height: 285px;
     max-width: 100%;
 }
 
@@ -110,6 +163,7 @@ footer .container {
 footer p {
     width: 500px;
     text-align: center;
+    margin: 0;
 }
 
 
@@ -124,8 +178,8 @@ footer .menu {
 
 footer .menu ul {
     list-style: none;
-    
-    
+
+
 }
 
 footer .menu ul li {
@@ -136,7 +190,7 @@ footer .menu ul li {
     letter-spacing: 0em;
     text-align: left;
     margin: 15px;
-    
+
 }
 
 footer .menu ul li a {
@@ -145,7 +199,7 @@ footer .menu ul li a {
 }
 
 
-footer p{
+footer p {
     font-family: Raleway;
     font-size: 14px;
     font-weight: 400;
@@ -153,8 +207,8 @@ footer p{
     letter-spacing: 0em;
     text-align: left;
 }
- 
-footer p{
+
+footer p {
     font-family: Raleway;
     font-size: 12px;
     font-weight: 700;
@@ -170,4 +224,139 @@ footer p{
 footer .agradecimento {
     width: 100%;
     text-align: center;
+}
+
+.container {
+  max-width: 100%;
+  width: 1200px;
+  margin: 0 auto;
+
+
+}
+
+.container h2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+}
+
+/*Planos*/
+.plano1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+
+    display: flex;
+    text-align-last: center;
+    justify-content: space-evenly;
+}
+
+
+.formulario {
+    width: 300px;
+    left: 50px;
+    border-radius: 20px;
+    border: 2px solid #757575;
+    margin: 25px;
+    padding: 15px;
+}
+
+.formulario h2 {
+    color: #388E3C;
+    font-size: 23px;
+    text-align: center;
+    font-family: Releway;
+}
+
+.formulario form input {
+    width: 90%;
+    border: 1px solid #757575;
+    border-radius: 9px;
+    padding: 7px;
+    margin: 3px 0;
+}
+
+
+.form-plan {
+    width: 288px;
+    left: 1px;
+    border-radius: 10px;
+    border: 1px solid #757575;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+
+.formulario label {
+    font-size: 16px;
+    width: 70%;
+    padding: 5px;
+    margin: 3px 0;
+    font-family: 'Raleway', sans-serif;
+    left: 107px;
+}
+
+.formulario form button {
+    font-size: 20px;
+    background-color: #388E3C;
+    color: #fff;
+    border: 2px solid #388E3C;
+    padding: 2px 80px;
+    border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 9px;
+    margin: 12px;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+h4 {
+    font-family: Roboto Mono;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 40px;
+}
+
+/*Borda de cada plano*/
+div.primeira {
+    border: 90px solid rgb(1, 1, 11);
+    border-width: 3px;
+    width: 250px;
+    height: 500px;
+}
+
+div.segunda {
+    border: 90px solid rgb(1, 1, 11);
+    border-width: 3px;
+    width: 250px;
+    height: 500px;
+}
+
+div.terceira {
+    border: 90px solid rgb(1, 1, 11);
+    border-width: 3px;
+    width: 250px;
+    height: 500px;
 }
