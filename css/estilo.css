@@ -51,20 +51,18 @@ header .menu ul li a {
 }
 
 main section.banner {
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-main section.banner .container {
-    display: flex;
-    justify-content: flex-end;
-    /* alinhamento horizontal pra direita */
-    margin: 0 auto;
+    height: 500px;
     background-image: url(../imagens/ilustra_banner.png);
+    margin: 0 auto;
     background-repeat: no-repeat;
     background-position:center;
+}
+
+main section.banner .container{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: flex-end;
 }
 
 main section.banner h1 {
@@ -75,11 +73,11 @@ main section.banner h1 {
     line-height: 47px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 320px 50px;
-    align-self: center;
+    padding: 0px 50px;
     
 }
 
+      /* 
 main section.banner p {
     font-family: Raleway;
     color:black;
@@ -88,6 +86,88 @@ main section.banner p {
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 300px;
+    padding: 0;
     align-self: center;
+} */
+
+
+
+footer {
+    background-color: #388E3c;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    height: 285px;
+    max-width: 100%;
+}
+
+footer .container {
+    margin: 30px 35px;
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    width: 500px;
+    text-align: center;
+}
+
+
+footer .menu {
+    Justify-content: end;
+    text-align: left;
+    text-decoration: none;
+    display: flex;
+    margin: 60px 35px;
+}
+
+
+footer .menu ul {
+    list-style: none;
+    
+    
+}
+
+footer .menu ul li {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 15px;
+    
+}
+
+footer .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+footer p{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+ 
+footer p{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.rodape {
+    display: flex;
+}
+
+footer .agradecimento {
+    width: 100%;
+    text-align: center;
 }
