@@ -42,20 +42,22 @@ body {
 }
 
 
-.formulario {
+    .formulario {
     width: 300px;
-    height: 600px;
-    left: 50px;
+    height: 550px;
+    left: 90px;
     border-radius: 20px;
     border: 2px solid #757575;
-    margin: 25px;
+    margin: 49px;
     float: left;
-    padding: 15px;
+    padding: 8px;
+    
+
 }
 
 .formulario h2 {
     color: #388E3C;
-    font-size: 23px;
+    font-size: 25px;
     text-align: center;
     font-family: Releway;
 }
@@ -70,12 +72,12 @@ body {
 
 
 .form-plan {
-    width: 288px;
+    width: 250px;
     left: 1px;
     border-radius: 10px;
     border: 1px solid #757575;
     font-family: 'Raleway', sans-serif;
-    margin:  0px;
+    margin:  1 9px;
     padding: 10px;
 
 }
@@ -103,7 +105,13 @@ body {
     text-align: center;
 }
 
-
+section .container-solitacao {
+    background-image: url(/imagens/ilustra_contrato.png);
+    margin: 0 auto ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  
 a{
     text-decoration: none;
     font-family: Raleway;
