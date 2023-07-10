@@ -259,7 +259,7 @@ footer .agradecimento {
 }
 
 
-.formulario {
+    .formulario {
     width: 300px;
     left: 50px;
     border-radius: 20px;
@@ -270,7 +270,7 @@ footer .agradecimento {
 
 .formulario h2 {
     color: #388E3C;
-    font-size: 23px;
+    font-size: 25px;
     text-align: center;
     font-family: Releway;
 }
@@ -285,7 +285,7 @@ footer .agradecimento {
 
 
 .form-plan {
-    width: 288px;
+    width: 250px;
     left: 1px;
     border-radius: 10px;
     border: 1px solid #757575;
