@@ -3,7 +3,6 @@
 * {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +12,6 @@ body {
     text-align: left;
     background: linear-gradient(180deg, #C8E6C9 0%, rgba(200, 230, 201, 0) 63.54%, rgba(200, 230, 201, 0) 87.5%, rgba(200, 230, 201, 0) 100%);
 }
-
 header .container-header {
     width: 1200px;
     max-width: 100%;
@@ -22,7 +20,6 @@ header .container-header {
     justify-content: space-between;
     align-items: center;
 }
-
 header {
     background-color: #388E3c;
 }
@@ -76,34 +73,117 @@ h4 {
     line-height: 40px;
 }
 
-/*ul {
-    height: 200px;
-    top: 980px;
-    left: 228px;
-} */
-
-/*Borda de cada plano*/
-div.primeira {
-    border: 90px solid rgb(1, 1, 11);
-    border-width: 3px;
-    width: 250px;
-    height: 500px;
+/*Primeiro contrato interno*/
+.introducaoPlano1.h1{
+    font-size: 70%;
+}
+.formulario {
+    position:absolute;
+    top: 55px;
+    left: 800px;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:flex-start;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 2px #B4B4B4;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.formulario{
+    font-size: 10px;
+}
+.ladel.h2 {
+    margin: auto;
+    font-size: 25px;
+    color: #388E3C;
+    line-height: 46.96px;
 }
 
-div.segunda {
-    border: 90px solid rgb(1, 1, 11);
-    border-width: 3px;
-    width: 250px;
-    height: 500px;
+.formulario form button:hover {
+    background-color: green;
+    border-color: rgb(117, 234, 117);
+    cursor: pointer;
+    border-radius: 10px;
+}
+/*Segundo contrato interno*/
+.introducaoPlano2.h1{
+    font-size: 70%;
+}
+.segundoFormulario {
+    position:absolute;
+    top: 55px;
+    left: 800px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:flex-start;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 2px #B4B4B4;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.segundoFormulario{
+    font-size: 10px;
+}
+.ladel.h2 {
+    margin: auto;
+    font-size: 25px;
+    color: #388E3C;
+    line-height: 46.96px;
 }
 
-div.terceira {
-    border: 90px solid rgb(1, 1, 11);
-    border-width: 3px;
-    width: 250px;
-    height: 500px;
+.formulario form button:hover {
+    background-color: green;
+    border-color: rgb(117, 234, 117);
+    cursor: pointer;
+    border-radius: 10px;
 }
 
+/*Terceiro contrato interno*/
+.introducaoPlano3.h1{
+    font-size: 70%;
+}
+.terceiroFormulario {
+    position:absolute;
+    top: 55px;
+    left: 800px;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:flex-start;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 2px #B4B4B4;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.terceiroFormulario{
+    font-size: 10px;
+}
+.ladel.h2 {
+    margin: auto;
+    font-size: 25px;
+    color: #388E3C;
+    line-height: 46.96px;
+}
+
+.formulario form button:hover {
+    background-color: green;
+    border-color: rgb(117, 234, 117);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*rodape*/
 main section.banner {
     height: 500px;
     background-image: url(../imagens/ilustra_banner.png);
@@ -243,121 +323,3 @@ footer .agradecimento {
     line-height: 47px;
     letter-spacing: 0em;
 }
-
-/*Planos*/
-.plano1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    margin: 0;
-
-    display: flex;
-    text-align-last: center;
-    justify-content: space-evenly;
-}
-.formulario {
-    width: 300px;
-    left: 50px;
-    border-radius: 20px;
-    border: 2px solid #757575;
-    margin: 25px;
-    padding: 15px;
-}
-
-.formulario h2 {
-    color: #388E3C;
-    font-size: 23px;
-    text-align: center;
-    font-family: Releway;
-}
-
-.formulario form input {
-    width: 90%;
-    border: 1px solid #757575;
-    border-radius: 9px;
-    padding: 7px;
-    margin: 3px 0;
-}
-
-
-.form-plan {
-    width: 288px;
-    left: 1px;
-    border-radius: 10px;
-    border: 1px solid #757575;
-    font-family: 'Raleway', sans-serif;
-    margin: 0px;
-    padding: 10px;
-
-}
-
-
-.formulario label {
-    font-size: 16px;
-    width: 70%;
-    padding: 5px;
-    margin: 3px 0;
-    font-family: 'Raleway', sans-serif;
-    left: 107px;
-}
-
-.formulario form button {
-    font-size: 20px;
-    background-color: #388E3C;
-    color: #fff;
-    border: 2px solid #388E3C;
-    padding: 2px 80px;
-    border-radius: 30px;
-    font-family: 'Raleway', sans-serif;
-    border-radius: 9px;
-    margin: 12px;
-    text-align: center;
-}
-
-
-a {
-    text-decoration: none;
-    font-family: Raleway;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #fff;
-}
-
-h4 {
-    font-family: Roboto Mono;
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: 0em;
-    text-align: left;
-    line-height: 40px;
-}
-
-/*Borda de cada plano*/
-div.primeira {
-    border: 90px solid rgb(1, 1, 11);
-    border-width: 3px;
-    width: 250px;
-    height: 500px;
-    cursor: pointer;
-}
-
-div.segunda {
-    border: 90px solid rgb(1, 1, 11);
-    border-width: 3px;
-    width: 250px;
-    height: 500px;
-    cursor: pointer;
-}
-
-div.terceira {
-    border: 90px solid rgb(1, 1, 11);
-    border-width: 3px;
-    width: 250px;
-    height: 500px;
-    cursor: pointer;
-}
-
