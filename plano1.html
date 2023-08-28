@@ -5,16 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/wifi.svg">
-    <title>Conexos</title>
-    <link rel="stylesheet" href="css/estilo.css">
-    
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/estily.css">
 </head>
-
 <body>
-
     <header>
-        <div class="container-header">
+        <div>
             <div class="logo">
                 <a href="index.html"><img src="imagens/conexos-logo-white (3) 1.svg" alt="Logo conexos black"></a>
             </div>
@@ -29,65 +25,101 @@
             </div>
     </header>
     <main>
-       
-        <!--Planos/ Bruna-->
+        <!--Página Interna do plano - Bruna -->
+        <section class="contratoInterno">
+            <div class="introducaoPlano1">
+                <h1><strong>Plano 1</strong></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt ut
+                    labore et dolore magna.<br>
+                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br> tempor incididunt
+                    ut labore et dolore
+                    magna.
+                    <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut
+                    labore
+                    et dolore magna.
+                <ul>
+                    <li>vantagem x+</li>
+                    <li>vantagem y+</li>
+                    <li>vantagem z+</li>
+                    <li>vantagem x+</li> 
+                    <li>vantagem y+</li>
+                    <li>vantagem z+</li>
 
-        <section class="planos-principais">
-            <div class="container">
-                <div class="titulo">
-                    <h2>CONHEÇA NOSSOS PLANOS!!</h2><br>
+                </ul>
+                </p>
+            </div>
+            <style>
+
+                section.contratoInterno p {
+                    font-size: 45%;
+                }
+                section.contratoInterno li{
+                    font-size: 60%;
+                }
+
+                section.contratoInterno h1{
+                    font-size: 80%;
+                    
+                }
+                
+            </style>
+            <!--Formulário da página interna -->
+            <section class="contato">
+                    <div class="formulario">
+                        <form class="contratacao-plano" method="POST"><br>
+                            <label><h2>CONTRATE SEU PLANO</h2></label>
+                            <label><strong> Nome completo</strong><br></label>
+                            <input type="text" name="nome Completo" />
+                            <br>
+                            <br>
+                            <label><strong>CPF</strong><br></label>
+                            <input type="text" name="CPF" />
+                            <br>
+                            <br>
+                            <label><strong> Email</strong><br></label>
+                            <input type="text" name="email" />
+                            <br>
+                            <br>
+                            <label for="time"> <strong> Plano </strong></label> <br>
+                            <select class="form-plan">
+                                <option> Plano 1</option>
+                                <option> Plano 2 </option>
+                                <option> Plano 3</option>
+                            </select>
+                            <br>
+                            <br>
+                            <label for="time"><strong>Preferencia de horário para visitas</strong><br></label>
+                            <select class="form-plan">
+                                <option>8:00 as 12:00</option>
+                                <option>12:00 as 17:00</option>
+                            </select>
+                            <br>
+                            <br>
+                            <button type="submit" style="background: #388E3C;width: 250px; height: 30px;top: 1245px;
+                left: 577px; border-radius: 20px;"><strong>contrato</strong></button>
+                            </article>
+                            <br>
+                            <br>
+                        </form>
+                    </div>
                 </div>
-                <!--Plano 1-->
-                <div class="plano1">
-                    <article>
-                        <div class="primeira"><br>
-                            <br>
-                            <h3>PLANO BÁSICO</h3><br>
-                            <img src="imagens/ilustra_1.png" alt="imagem ilustrativa" width="117px" height="106px">
-                            <ul>Plano ideal para espaços<br>residenciais com pequenas famílias.<br>
-                                <br>
-                                <li><strong>vantagem x+</strong></li>
-                                <li><strong>vantagem y+</strong></li>
-                                <li>v<strong>vantagem z+</strong></li>
-                                <h4>R$500,00</h4>
+            </section>
+            <footer>
+                <div class="rodape">
+                    <div class="container">
+                        <img src="imagens/conexos-logo-black.png" alt="Logo conexos white">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna.</p>
+                    </div>
+                    <div class="menu">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="produtos.html">Planos</a></li>
+                                <li><a href="rastreamento-de-solicitaçoes.html">Status de solicitações</a></li>
                             </ul>
-                            <button style="background: #388E3C;width: 168px; height: 30px;top: 1245px;
-                                left: 577px; border-radius: 20px;"> <a href="plano.html">ESCOLHER PLANO</a></button>
-                    </article>
-                    <!--Plano 2-->
-                    <article>
-                        <div class="segunda"><br>
-                            <br>
-                            <h3>PLANO INTERMEDIÁRIO</h3><br>
-                            <img src="imagens/ilustra_2.png" alt="imagem ilustrativa" width="146px"
-                                height="116.66666412353516px">
-                            <ul>Plano ideal para espaços residenciais com grandes famílias ou startups.<br>
-                                <br>
-                                <li><strong>vantagem x++</strong></li>
-                                <li><strong>vantagem y++</strong></li>
-                                <li><strong>vantagem z++</strong></li>
-                                <h4>R$700,00</h4>
-                            </ul>
-                            <button style="background: #388E3C;width: 168px; height: 30px;top: 1245px;
-                                left: 577px; border-radius: 20px;"><a href="plano.html">ESCOLHER PLANO</a></button>
-                    </article>
-                    <!--Plano 3-->
-                    <article>
-                        <div class="terceira"><br>
-                            <br>
-                            <h3>PLANO PREMIUM</h3><br>
-                            <img src="imagens/ilustra_3.png" alt="imagem ilustrativa" width="119px" height="105px">
-                            <ul>Plano ideal para espaços empresariais.<br>
-                                <br>
-                                <li><strong>vantagem x</strong></li>
-                                <li><strong>vantagem y</strong></li>
-                                <li><strong>vantagem z</strong></li>
-                                <h4>R$1200,00</h4>
-                            </ul>
-                            <button style="background: #388E3C;width: 168px; height: 30px;top: 1245px;
-                        left: 577px; border-radius: 20px;"><a href="plano.html">ESCOLHER PLANO</a></button>
-                           
-                    </article>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </section>
